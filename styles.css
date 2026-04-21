@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    color: black;
+    background-color: lavender;
+    margin: 0;
+}
+
+header {
+    background-color: navy;
+    color: lavender;
+    text-align: center;
+    padding: 1.5em 3.2em;
+}
+
+header h1 {
+font-family: montserrat;
+font-weight: 900;
+font-size: 2.5em;
+text-transform: capitalize;
+margin: 0;
+}
+
+article h2 {
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: darkgoldenrod;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+article h3 {
+    font-family: montserrat;
+    font-weight: 500;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+article {
+    padding: 0 1em;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+nav {
+   text-align: center;
+   padding: 1em;
+   border: outset;
+   background-color: lightcyan;
+}
+
+nav a {
+  margin-right: 35px; /* Adds space to the right of each link */
+}
+nav a:last-child {
+  margin-right: 0;    /* Removes extra space from the last link */
+}
+
+nav a:link {
+  color: blue;
+}
+
+nav a:visited {
+  color: orangered;
+}
+
+nav a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: green;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    color: navy;
+    font-family: montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 2.5em;
+}
+
+.chloe, .deborah { 
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: darkslateblue;
+}
+
+.keanu, .bruce {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 600;
+    color: indigo;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a[href^="https://"]:link { text-decoration: underline; color: blue;}
+a[href^="https://"]:visited { text-decoration: underline; color: orangered;}
+a[href^="https://"]:hover { text-decoration: underline; color: purple;}
+a[href^="https://"]:active { text-decoration: underline; color: green;}
